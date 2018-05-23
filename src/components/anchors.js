@@ -71,7 +71,7 @@ export default function (Glide, Components, Events) {
      * @return {Void}
      */
     click (event) {
-      event.stopPropagation()
+      // event.stopPropagation()
 
       if (prevented) {
         event.preventDefault()

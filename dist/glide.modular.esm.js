@@ -2913,7 +2913,7 @@ var anchors = function (Glide, Components, Events) {
      * @return {Void}
      */
     click: function click(event) {
-      event.stopPropagation();
+      // event.stopPropagation()
 
       if (prevented) {
         event.preventDefault();
